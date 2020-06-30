@@ -15,7 +15,7 @@
 */build
 
 # databases
-#*.sqlite
+*.sqlite
 
 # uploads
 #*/uploads/*
