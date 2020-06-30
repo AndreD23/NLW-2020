@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
-/** função para servir arquivos estáticos(imagens, docs, etc) */
+// função para servir arquivos estáticos(imagens, docs, etc)
 app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')));
 
 app.use(errors());
